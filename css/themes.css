@@ -1,0 +1,327 @@
+/* ============================================
+   Theme Variables
+   ============================================ */
+
+/* Light Theme (default) */
+html[data-theme="light"] {
+  --bg-primary: #f0f2f5;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f8f9fa;
+  --fg-primary: #1a1a2e;
+  --fg-secondary: #4a4a6a;
+  --fg-muted: #8888aa;
+  --accent: #4a90d9;
+  --accent-hover: #357abd;
+  --accent-light: #e8f0fe;
+  --border: #e0e0e0;
+  --shadow: rgba(0, 0, 0, 0.08);
+  --shadow-lg: rgba(0, 0, 0, 0.12);
+  --group-even: #f5f5f5;
+  --group-odd: #eaeaea;
+  --btn-off-bg: #e0e0e0;
+  --btn-off-fg: #666;
+  --btn-on-bg: var(--accent);
+  --btn-on-fg: #ffffff;
+  --progress-bg: #fff3cd;
+  --progress-fg: #856404;
+  --error-bg: #f8d7da;
+  --error-fg: #721c24;
+  --success-bg: #d4edda;
+  --success-fg: #155724;
+  --step-combine: var(--accent);
+  --step-item: var(--fg-primary);
+  --step-with: var(--fg-muted);
+  --step-details: var(--fg-secondary);
+  --enchant-list: var(--accent);
+  --icon-bg: transparent;
+  --card-radius: 12px;
+  --btn-radius: 6px;
+}
+
+/* Dark Theme */
+html[data-theme="dark"] {
+  --bg-primary: #1a1a2e;
+  --bg-secondary: #16213e;
+  --bg-tertiary: #0f3460;
+  --fg-primary: #e0e0e0;
+  --fg-secondary: #b0b0cc;
+  --fg-muted: #6666aa;
+  --accent: #66b3ff;
+  --accent-hover: #4d8ac3;
+  --accent-light: #1a2a4a;
+  --border: #2a2a4a;
+  --shadow: rgba(0, 0, 0, 0.3);
+  --shadow-lg: rgba(0, 0, 0, 0.5);
+  --group-even: #1e2d4a;
+  --group-odd: #16213e;
+  --btn-off-bg: #2a2a4a;
+  --btn-off-fg: #8888aa;
+  --btn-on-bg: var(--accent);
+  --btn-on-fg: #1a1a2e;
+  --progress-bg: #3a3a1a;
+  --progress-fg: #ffd700;
+  --error-bg: #3a1a1a;
+  --error-fg: #ff6b6b;
+  --success-bg: #1a3a1a;
+  --success-fg: #6bffb8;
+  --step-combine: var(--accent);
+  --step-item: var(--fg-primary);
+  --step-with: var(--fg-muted);
+  --step-details: var(--fg-secondary);
+  --enchant-list: var(--accent);
+  --icon-bg: rgba(255,255,255,0.05);
+  --card-radius: 12px;
+  --btn-radius: 6px;
+}
+
+/* Wither Theme */
+html[data-theme="wither"] {
+  --bg-primary: #111111;
+  --bg-secondary: #1a1a1a;
+  --bg-tertiary: #222222;
+  --fg-primary: #cccccc;
+  --fg-secondary: #999999;
+  --fg-muted: #555555;
+  --accent: #888888;
+  --accent-hover: #aaaaaa;
+  --accent-light: #222222;
+  --border: #333333;
+  --shadow: rgba(0, 0, 0, 0.5);
+  --shadow-lg: rgba(0, 0, 0, 0.7);
+  --group-even: #1a1a1a;
+  --group-odd: #151515;
+  --btn-off-bg: #333333;
+  --btn-off-fg: #777;
+  --btn-on-bg: var(--accent);
+  --btn-on-fg: #111111;
+  --progress-bg: #2a2a1a;
+  --progress-fg: #cccc00;
+  --error-bg: #2a1a1a;
+  --error-fg: #ff4444;
+  --success-bg: #1a2a1a;
+  --success-fg: #44ff88;
+  --step-combine: var(--accent);
+  --step-item: var(--fg-primary);
+  --step-with: var(--fg-muted);
+  --step-details: var(--fg-secondary);
+  --enchant-list: var(--accent);
+  --icon-bg: rgba(255,255,255,0.03);
+  --card-radius: 12px;
+  --btn-radius: 6px;
+}
+
+/* Crimson Theme */
+html[data-theme="crimson"] {
+  --bg-primary: #2d1018;
+  --bg-secondary: #3d1828;
+  --bg-tertiary: #4d2038;
+  --fg-primary: #f0d0d8;
+  --fg-secondary: #c0a0a8;
+  --fg-muted: #806068;
+  --accent: #ff6b8a;
+  --accent-hover: #ff4d6a;
+  --accent-light: #4d1028;
+  --border: #5d2840;
+  --shadow: rgba(0, 0, 0, 0.4);
+  --shadow-lg: rgba(0, 0, 0, 0.6);
+  --group-even: #3d1828;
+  --group-odd: #351420;
+  --btn-off-bg: #5d2840;
+  --btn-off-fg: #a08088;
+  --btn-on-bg: var(--accent);
+  --btn-on-fg: #2d1018;
+  --progress-bg: #4d2020;
+  --progress-fg: #ffaa88;
+  --error-bg: #4d1010;
+  --error-fg: #ff6666;
+  --success-bg: #104d20;
+  --success-fg: #66ffaa;
+  --step-combine: var(--accent);
+  --step-item: var(--fg-primary);
+  --step-with: var(--fg-muted);
+  --step-details: var(--fg-secondary);
+  --enchant-list: var(--accent);
+  --icon-bg: rgba(255,255,255,0.04);
+  --card-radius: 12px;
+  --btn-radius: 6px;
+}
+
+/* Dirt Theme */
+html[data-theme="dirt"] {
+  --bg-primary: #5d4037;
+  --bg-secondary: #6d4c41;
+  --bg-tertiary: #795548;
+  --fg-primary: #efebe9;
+  --fg-secondary: #d7ccc8;
+  --fg-muted: #a1887f;
+  --accent: #ffab91;
+  --accent-hover: #ff8a65;
+  --accent-light: #4e342e;
+  --border: #8d6e63;
+  --shadow: rgba(0, 0, 0, 0.3);
+  --shadow-lg: rgba(0, 0, 0, 0.5);
+  --group-even: #6d4c41;
+  --group-odd: #5d4037;
+  --btn-off-bg: #8d6e63;
+  --btn-off-fg: #bcaaa4;
+  --btn-on-bg: var(--accent);
+  --btn-on-fg: #3e2723;
+  --progress-bg: #4e342e;
+  --progress-fg: #ffcc80;
+  --error-bg: #4e2020;
+  --error-fg: #ff8888;
+  --success-bg: #2e4e20;
+  --success-fg: #aaff88;
+  --step-combine: var(--accent);
+  --step-item: var(--fg-primary);
+  --step-with: var(--fg-muted);
+  --step-details: var(--fg-secondary);
+  --enchant-list: var(--accent);
+  --icon-bg: rgba(255,255,255,0.05);
+  --card-radius: 12px;
+  --btn-radius: 6px;
+}
+
+/* Enderman Theme */
+html[data-theme="enderman"] {
+  --bg-primary: #0a0014;
+  --bg-secondary: #12002a;
+  --bg-tertiary: #1a0040;
+  --fg-primary: #d0b0ff;
+  --fg-secondary: #a080cc;
+  --fg-muted: #6040aa;
+  --accent: #bb86fc;
+  --accent-hover: #9966dd;
+  --accent-light: #1a0040;
+  --border: #2a0060;
+  --shadow: rgba(80, 0, 160, 0.3);
+  --shadow-lg: rgba(80, 0, 160, 0.5);
+  --group-even: #12002a;
+  --group-odd: #0e0022;
+  --btn-off-bg: #2a0060;
+  --btn-off-fg: #8060bb;
+  --btn-on-bg: var(--accent);
+  --btn-on-fg: #0a0014;
+  --progress-bg: #200040;
+  --progress-fg: #dd99ff;
+  --error-bg: #300020;
+  --error-fg: #ff66aa;
+  --success-bg: #003020;
+  --success-fg: #66ffaa;
+  --step-combine: var(--accent);
+  --step-item: var(--fg-primary);
+  --step-with: var(--fg-muted);
+  --step-details: var(--fg-secondary);
+  --enchant-list: var(--accent);
+  --icon-bg: rgba(187,134,252,0.08);
+  --card-radius: 12px;
+  --btn-radius: 6px;
+}
+
+/* Ocean Theme */
+html[data-theme="ocean"] {
+  --bg-primary: #0a1929;
+  --bg-secondary: #0d2137;
+  --bg-tertiary: #132d46;
+  --fg-primary: #b3e5fc;
+  --fg-secondary: #81d4fa;
+  --fg-muted: #4fc3f7;
+  --accent: #29b6f6;
+  --accent-hover: #03a9f4;
+  --accent-light: #0a2a4a;
+  --border: #1a4a6a;
+  --shadow: rgba(0, 0, 0, 0.4);
+  --shadow-lg: rgba(0, 0, 0, 0.6);
+  --group-even: #0d2137;
+  --group-odd: #0a1929;
+  --btn-off-bg: #1a4a6a;
+  --btn-off-fg: #4fc3f7;
+  --btn-on-bg: var(--accent);
+  --btn-on-fg: #0a1929;
+  --progress-bg: #0a2a4a;
+  --progress-fg: #4dd0e1;
+  --error-bg: #2a1020;
+  --error-fg: #ff7799;
+  --success-bg: #0a3a2a;
+  --success-fg: #66ffcc;
+  --step-combine: var(--accent);
+  --step-item: var(--fg-primary);
+  --step-with: var(--fg-muted);
+  --step-details: var(--fg-secondary);
+  --enchant-list: var(--accent);
+  --icon-bg: rgba(41,182,246,0.08);
+  --card-radius: 12px;
+  --btn-radius: 6px;
+}
+
+/* Magma Theme */
+html[data-theme="magma"] {
+  --bg-primary: #1a0a00;
+  --bg-secondary: #2a1200;
+  --bg-tertiary: #3a1a00;
+  --fg-primary: #ffe0b2;
+  --fg-secondary: #ffcc80;
+  --fg-muted: #ff9800;
+  --accent: #ff6e00;
+  --accent-hover: #ff5722;
+  --accent-light: #3a1a00;
+  --border: #5a2a00;
+  --shadow: rgba(255, 100, 0, 0.2);
+  --shadow-lg: rgba(255, 100, 0, 0.4);
+  --group-even: #2a1200;
+  --group-odd: #220e00;
+  --btn-off-bg: #5a2a00;
+  --btn-off-fg: #ffaa66;
+  --btn-on-bg: var(--accent);
+  --btn-on-fg: #1a0a00;
+  --progress-bg: #3a1a00;
+  --progress-fg: #ffcc00;
+  --error-bg: #3a0a0a;
+  --error-fg: #ff4444;
+  --success-bg: #0a3a0a;
+  --success-fg: #66ff66;
+  --step-combine: var(--accent);
+  --step-item: var(--fg-primary);
+  --step-with: var(--fg-muted);
+  --step-details: var(--fg-secondary);
+  --enchant-list: var(--accent);
+  --icon-bg: rgba(255,110,0,0.08);
+  --card-radius: 12px;
+  --btn-radius: 6px;
+}
+
+/* Sunflower Theme */
+html[data-theme="sunflower"] {
+  --bg-primary: #fffde7;
+  --bg-secondary: #fff9c4;
+  --bg-tertiary: #fff59d;
+  --fg-primary: #333300;
+  --fg-secondary: #555500;
+  --fg-muted: #888800;
+  --accent: #f9a825;
+  --accent-hover: #f57f17;
+  --accent-light: #fff176;
+  --border: #e0d860;
+  --shadow: rgba(0, 0, 0, 0.08);
+  --shadow-lg: rgba(0, 0, 0, 0.12);
+  --group-even: #fff9c4;
+  --group-odd: #fff59d;
+  --btn-off-bg: #e0d860;
+  --btn-off-fg: #888800;
+  --btn-on-bg: var(--accent);
+  --btn-on-fg: #333300;
+  --progress-bg: #fff176;
+  --progress-fg: #827717;
+  --error-bg: #ffcdd2;
+  --error-fg: #b71c1c;
+  --success-bg: #c8e6c9;
+  --success-fg: #1b5e20;
+  --step-combine: var(--accent);
+  --step-item: var(--fg-primary);
+  --step-with: var(--fg-muted);
+  --step-details: var(--fg-secondary);
+  --enchant-list: var(--accent);
+  --icon-bg: rgba(0,0,0,0.03);
+  --card-radius: 12px;
+  --btn-radius: 6px;
+}
